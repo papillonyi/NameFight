@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.zhouyou.namefight.MainActivity">
+
+    <TextView
+        android:id="@+id/Guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="please enter your name"
+        android:layout_x="19dp"
+        android:layout_y="18dp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:maxLength="15"
+        android:layout_x="28dp"
+        android:layout_y="50dp" />
+
+    <Button
+        android:id="@+id/getValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get your combat value"
+        android:layout_x="145dp"
+        android:layout_y="56dp" />
+
+    <ListView
+        android:id="@+id/roleValue"
+        android:layout_width="295dp"
+        android:layout_height="173dp"
+        android:layout_x="24dp"
+        android:layout_y="160dp"></ListView>
+
+    <Button
+        android:id="@+id/findOpponent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find opponent"
+        android:layout_x="192dp"
+        android:layout_y="110dp" />
+
+    <Button
+        android:id="@+id/Rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rock"
+        android:layout_x="25dp"
+        android:layout_y="358dp" />
+
+    <Button
+        android:id="@+id/Paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paper"
+        android:layout_x="125dp"
+        android:layout_y="358dp" />
+
+    <Button
+        android:id="@+id/Scissor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scissor"
+        android:layout_x="225dp"
+        android:layout_y="358dp" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="292dp"
+        android:layout_height="50dp"
+        android:layout_x="25dp"
+        android:layout_y="430dp" />
+</AbsoluteLayout>
